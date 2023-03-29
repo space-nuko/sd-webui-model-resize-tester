@@ -29,8 +29,8 @@ def update_script_args(p, value, arg_idx):
     for s in all_scripts.alwayson_scripts:
         if isinstance(s, Script):
             args = list(p.script_args)
-            print(f"Args: {args}")
-            print(f"Changed arg {arg_idx} from {args[s.args_from + arg_idx]} to {value}")
+            # print(f"Args: {args}")
+            # print(f"Changed arg {arg_idx} from {args[s.args_from + arg_idx]} to {value}")
             args[s.args_from + arg_idx] = value
             p.script_args = tuple(args)
             break
