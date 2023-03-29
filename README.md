@@ -1,4 +1,4 @@
-# stable-diffusion-webui-model-resize-tester
+# sd-webui-model-resize-tester
 
 This extension for [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) lets you batch resize a LoRA with different dimensions and test the differences between the output LoRAs on the fly.
 
